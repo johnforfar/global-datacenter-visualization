@@ -1,25 +1,41 @@
 <!DOCTYPE html>
-<!-- saved from url=(0054)https://chrisboligprojects.pythonanywhere.com/gpuEarth -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>points Earth</title>
+    <title>Global Datacenter Visualization</title>
     <style>
-    body {
-        margin: 0;
-        background-color: black;
-    }
+        body {
+            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        #info {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 100;
+            display: block;
+        }
     </style>
     <script type="importmap">
-      {
-				"imports": {
-					"three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
-          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+            "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
         }
-			}
+    }
     </script>
-    </head>
-    <body>
+</head>
+<body>
+    <div id="info">
+        <h1>Centralized vs Decentralized Cloud</h1>
+        <h2>Not your cloud, not your data!</h2>
+        <p>Press 'C' to toggle Centralized data centers</p>
+        <p>Press 'D' to toggle Decentralized mesh nodes</p>
+    </div>
     <script type="module" src="index.js"></script>
-</body></html>
+</body>
+</html>
