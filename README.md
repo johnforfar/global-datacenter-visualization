@@ -52,6 +52,4 @@ Use keyboard controls:
 
 - [Three.js](https://threejs.org/) for the awesome 3D library.
 - [Three.js Forum](https://discourse.threejs.org/) for shader examples and discussions.
-
-
-Watch the tutorial on [YouTube](https://youtu.be/tBSzJstOGnM)
+- [Robot Bobby on YT](https://youtu.be/tBSzJstOGnM)
