@@ -44,6 +44,10 @@ Use keyboard controls:
 - **Starfield**: Adjust the number of stars or their size in `getStarfield.js` to change the look of the starfield.
 - **Shaders**: Modify the vertex or fragment shaders for custom visual effects on the globe's surface.
 
+## Demo deployment
+
+[https://global-datacenter-visualizer.netlify.app/](https://global-datacenter-visualizer.netlify.app/)
+
 ### Acknowledgments
 
 - [Three.js](https://threejs.org/) for the awesome 3D library.
