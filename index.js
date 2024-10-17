@@ -1,8 +1,7 @@
 // index.js - Global Datacenter Visualization
 
-import * as THREE from "three";
-import { OrbitControls } from "jsm/controls/OrbitControls.js";
-import getStarfield from "./src/getStarfield.js";
+import * as THREE from 'three';
+import { OrbitControls } from 'jsm/controls/OrbitControls.js';
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 0.1, 1000);
@@ -99,12 +98,12 @@ const fragmentShader = `
   }
 `;
 const uniforms = {
-  size: { type: "f", value: 4.0 },
-  colorTexture: { type: "t", value: colorMap },
-  otherTexture: { type: "t", value: otherMap },
-  elevTexture: { type: "t", value: elevMap },
-  alphaTexture: { type: "t", value: alphaMap },
-  mouseUV: { type: "v2", value: new THREE.Vector2(0.0, 0.0) },
+  size: { value: 4.0 },
+  colorTexture: { value: colorMap },
+  otherTexture: { value: otherMap },
+  elevTexture: { value: elevMap },
+  alphaTexture: { value: alphaMap },
+  mouseUV: { value: new THREE.Vector2(0.0, 0.0) },
 };
 const pointsMat = new THREE.ShaderMaterial({
   uniforms: uniforms,
@@ -119,29 +118,37 @@ globeGroup.add(points);
 const hemiLight = new THREE.HemisphereLight(0xffffff, 0x080820, 3);
 scene.add(hemiLight);
 
-const stars = getStarfield({ numStars:4500, sprite: starSprite });
+function getStarfield({ numStars = 500 } = {}) {
+  const vertices = [];
+  for (let i = 0; i < numStars; i++) {
+    const x = (Math.random() - 0.5) * 2000;
+    const y = (Math.random() - 0.5) * 2000;
+    const z = -(Math.random() * 2000);
+    vertices.push(x, y, z);
+  }
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
+  const material = new THREE.PointsMaterial({
+    size: 2,
+    sizeAttenuation: false,
+    map: starSprite,
+    transparent: true
+  });
+  const stars = new THREE.Points(geometry, material);
+  return stars;
+}
+
+const stars = getStarfield({ numStars: 4500 });
 scene.add(stars);
 
-// Data for centralized data centers and decentralized nodes
-const dataCenters = [
-  { lat: 37.7749, lon: -122.4194, name: "San Francisco" },
-  { lat: 40.7128, lon: -74.0060, name: "New York" },
-  { lat: 51.5074, lon: -0.1278, name: "London" },
-  { lat: 35.6762, lon: 139.6503, name: "Tokyo" },
-];
-
-const decentralizedNodes = [
-  { lat: 48.8566, lon: 2.3522, name: "Paris" },
-  { lat: -33.8688, lon: 151.2093, name: "Sydney" },
-  { lat: 55.7558, lon: 37.6173, name: "Moscow" },
-  { lat: -22.9068, lon: -43.1729, name: "Rio de Janeiro" },
-];
+const dataCenterGroup = new THREE.Group();
+const decentralizedGroup = new THREE.Group();
 
 function latLonToVector3(lat, lon, radius) {
   const phi = (90 - lat) * (Math.PI / 180);
   const theta = (lon + 180) * (Math.PI / 180);
-  const x = -(radius * Math.sin(phi) * Math.cos(theta));
-  const z = radius * Math.sin(phi) * Math.sin(theta);
+  const x = radius * Math.sin(phi) * Math.cos(theta);
+  const z = -radius * Math.sin(phi) * Math.sin(theta);
   const y = radius * Math.cos(phi);
   return new THREE.Vector3(x, y, z);
 }
@@ -152,25 +159,55 @@ function createLocationMarker(color) {
   return new THREE.Mesh(markerGeometry, markerMaterial);
 }
 
-const dataCenterGroup = new THREE.Group();
-const decentralizedGroup = new THREE.Group();
+// Simple CSV parser function
+function parseCSV(text) {
+  const lines = text.split('\n');
+  const headers = lines[0].split(',');
+  return lines.slice(1).map(line => {
+    const values = line.split(',');
+    return headers.reduce((object, header, index) => {
+      object[header.trim()] = values[index].trim();
+      return object;
+    }, {});
+  });
+}
 
-dataCenters.forEach(dc => {
-  const marker = createLocationMarker(0xff0000); // Red for centralized data centers
-  const position = latLonToVector3(dc.lat, dc.lon, 1.01);
-  marker.position.copy(position);
-  dataCenterGroup.add(marker);
-});
+// Function to load CSV data
+async function loadCSV(url) {
+  const response = await fetch(url);
+  const csvText = await response.text();
+  return parseCSV(csvText);
+}
 
-decentralizedNodes.forEach(node => {
-  const marker = createLocationMarker(0x00ff00); // Green for decentralized nodes
-  const position = latLonToVector3(node.lat, node.lon, 1.01);
-  marker.position.copy(position);
-  decentralizedGroup.add(marker);
-});
+// Load and process CSV data
+async function loadNodesFromCSV() {
+  try {
+    const centralizedData = await loadCSV('centralized_nodes.csv');
+    const decentralizedData = await loadCSV('decentralized_nodes.csv');
 
-globeGroup.add(dataCenterGroup);
-globeGroup.add(decentralizedGroup);
+    centralizedData.forEach(row => {
+      const marker = createLocationMarker(0xff0000); // Red for centralized data centers
+      const position = latLonToVector3(parseFloat(row.lat), parseFloat(row.lon), 1.01);
+      marker.position.copy(position);
+      dataCenterGroup.add(marker);
+    });
+
+    decentralizedData.forEach(row => {
+      const marker = createLocationMarker(0x00ff00); // Green for decentralized nodes
+      const position = latLonToVector3(parseFloat(row.lat), parseFloat(row.lon), 1.01);
+      marker.position.copy(position);
+      decentralizedGroup.add(marker);
+    });
+
+    globeGroup.add(dataCenterGroup);
+    globeGroup.add(decentralizedGroup);
+  } catch (error) {
+    console.error("Error loading CSV data:", error);
+  }
+}
+
+// Call the function to load nodes from CSV
+loadNodesFromCSV();
 
 // Toggle functionality
 let centralizedVisible = true;

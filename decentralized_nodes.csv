@@ -1,0 +1,371 @@
+lat,lon,name,provider
+-33.8688,151.2093,"Sydney, Australia",unknown
+-37.8136,144.9631,"Melbourne, Australia",unknown
+-27.4698,153.0251,"Brisbane, Australia",unknown
+-31.9505,115.8605,"Perth, Australia",unknown
+-34.9285,138.6007,"Adelaide, Australia",unknown
+-42.8821,147.3272,"Hobart, Australia",unknown
+-35.2809,149.1300,"Canberra, Australia",unknown
+-12.4634,130.8456,"Darwin, Australia",unknown
+-16.9186,145.7781,"Cairns, Australia",unknown
+-32.9283,151.7817,"Newcastle, Australia",unknown
+-34.4278,150.8931,"Wollongong, Australia",unknown
+-37.5622,143.8503,"Ballarat, Australia",unknown
+-36.7564,144.2787,"Bendigo, Australia",unknown
+-38.1499,144.3617,"Geelong, Australia",unknown
+-32.2315,148.6330,"Dubbo, Australia",unknown
+-30.3080,153.0877,"Coffs Harbour, Australia",unknown
+-41.4332,147.1572,"Launceston, Australia",unknown
+-19.2590,146.8169,"Townsville, Australia",unknown
+-23.3791,150.5100,"Rockhampton, Australia",unknown
+-21.1441,149.1862,"Mackay, Australia",unknown
+-28.0167,153.4000,"Gold Coast, Australia",unknown
+-26.6031,153.0918,"Sunshine Coast, Australia",unknown
+40.7128,-74.0060,"New York, USA",unknown
+51.5074,-0.1278,"London, UK",unknown
+48.8566,2.3522,"Paris, France",unknown
+35.6762,139.6503,"Tokyo, Japan",unknown
+55.7558,37.6173,"Moscow, Russia",unknown
+40.4168,-3.7038,"Madrid, Spain",unknown
+52.5200,13.4050,"Berlin, Germany",unknown
+41.9028,12.4964,"Rome, Italy",unknown
+31.2304,121.4737,"Shanghai, China",unknown
+19.4326,-99.1332,"Mexico City, Mexico",unknown
+-34.6037,-58.3816,"Buenos Aires, Argentina",unknown
+-23.5505,-46.6333,"São Paulo, Brazil",unknown
+28.6139,77.2090,"New Delhi, India",unknown
+1.3521,103.8198,"Singapore",unknown
+25.2048,55.2708,"Dubai, UAE",unknown
+30.0444,31.2357,"Cairo, Egypt",unknown
+59.9139,10.7522,"Oslo, Norway",unknown
+59.3293,18.0686,"Stockholm, Sweden",unknown
+55.6761,12.5683,"Copenhagen, Denmark",unknown
+-41.2865,174.7762,"Wellington, New Zealand",unknown
+37.9838,23.7275,"Athens, Greece",unknown
+50.0755,14.4378,"Prague, Czech Republic",unknown
+48.2082,16.3738,"Vienna, Austria",unknown
+52.3676,4.9041,"Amsterdam, Netherlands",unknown
+53.3498,-6.2603,"Dublin, Ireland",unknown
+50.8503,4.3517,"Brussels, Belgium",unknown
+46.9480,7.4474,"Bern, Switzerland",unknown
+41.9028,12.4964,"Vatican City",unknown
+42.6977,23.3219,"Sofia, Bulgaria",unknown
+44.4268,26.1025,"Bucharest, Romania",unknown
+47.4979,19.0402,"Budapest, Hungary",unknown
+38.7223,-9.1393,"Lisbon, Portugal",unknown
+59.4370,24.7536,"Tallinn, Estonia",unknown
+56.9496,24.1052,"Riga, Latvia",unknown
+54.6872,25.2797,"Vilnius, Lithuania",unknown
+60.1699,24.9384,"Helsinki, Finland",unknown
+64.1265,-21.8174,"Reykjavik, Iceland",unknown
+35.6895,139.6917,"Tokyo, Japan",unknown
+37.5665,126.9780,"Seoul, South Korea",unknown
+39.9042,116.4074,"Beijing, China",unknown
+22.3193,114.1694,"Hong Kong",unknown
+25.0330,121.5654,"Taipei, Taiwan",unknown
+14.5995,120.9842,"Manila, Philippines",unknown
+13.7563,100.5018,"Bangkok, Thailand",unknown
+21.0285,105.8542,"Hanoi, Vietnam",unknown
+11.5564,104.9282,"Phnom Penh, Cambodia",unknown
+3.1390,101.6869,"Kuala Lumpur, Malaysia",unknown
+-6.2088,106.8456,"Jakarta, Indonesia",unknown
+18.7883,98.9853,"Chiang Mai, Thailand",unknown
+16.8409,96.1735,"Yangon, Myanmar",unknown
+17.9757,102.6331,"Vientiane, Laos",unknown
+28.6139,77.2090,"New Delhi, India",unknown
+18.9667,72.8333,"Mumbai, India",unknown
+22.5726,88.3639,"Kolkata, India",unknown
+13.0827,80.2707,"Chennai, India",unknown
+12.9716,77.5946,"Bangalore, India",unknown
+17.3850,78.4867,"Hyderabad, India",unknown
+23.8103,90.4125,"Dhaka, Bangladesh",unknown
+27.7172,85.3240,"Kathmandu, Nepal",unknown
+33.7294,73.0931,"Islamabad, Pakistan",unknown
+24.8607,67.0011,"Karachi, Pakistan",unknown
+31.5204,74.3587,"Lahore, Pakistan",unknown
+34.5553,69.2075,"Kabul, Afghanistan",unknown
+35.6892,51.3890,"Tehran, Iran",unknown
+33.3152,44.3661,"Baghdad, Iraq",unknown
+24.4539,54.3773,"Abu Dhabi, UAE",unknown
+26.2285,50.5860,"Manama, Bahrain",unknown
+25.2854,51.5310,"Doha, Qatar",unknown
+23.6345,58.1823,"Muscat, Oman",unknown
+29.3759,47.9774,"Kuwait City, Kuwait",unknown
+24.7136,46.6753,"Riyadh, Saudi Arabia",unknown
+21.5433,39.1728,"Jeddah, Saudi Arabia",unknown
+15.3694,44.1910,"Sana'a, Yemen",unknown
+31.9454,35.9284,"Amman, Jordan",unknown
+33.8938,35.5018,"Beirut, Lebanon",unknown
+33.5138,36.2765,"Damascus, Syria",unknown
+32.0853,34.7818,"Tel Aviv, Israel",unknown
+30.0444,31.2357,"Cairo, Egypt",unknown
+31.2001,29.9187,"Alexandria, Egypt",unknown
+36.8065,10.1815,"Tunis, Tunisia",unknown
+36.7538,3.0588,"Algiers, Algeria",unknown
+33.9716,-6.8498,"Rabat, Morocco",unknown
+32.8872,13.1913,"Tripoli, Libya",unknown
+14.6928,-17.4467,"Dakar, Senegal",unknown
+5.3600,-4.0083,"Abidjan, Ivory Coast",unknown
+6.5244,3.3792,"Lagos, Nigeria",unknown
+9.0765,7.3986,"Abuja, Nigeria",unknown
+5.5557,-0.1963,"Accra, Ghana",unknown
+6.3350,2.4183,"Cotonou, Benin",unknown
+12.6392,-8.0029,"Bamako, Mali",unknown
+13.5127,2.1128,"Niamey, Niger",unknown
+12.3714,-1.5197,"Ouagadougou, Burkina Faso",unknown
+3.8480,11.5021,"Yaoundé, Cameroon",unknown
+0.3476,9.4520,"Libreville, Gabon",unknown
+-4.2634,15.2429,"Kinshasa, DR Congo",unknown
+-1.9403,30.0596,"Kigali, Rwanda",unknown
+0.3476,32.5825,"Kampala, Uganda",unknown
+-1.2921,36.8219,"Nairobi, Kenya",unknown
+-6.8235,39.2695,"Dar es Salaam, Tanzania",unknown
+-13.9626,33.7741,"Lilongwe, Malawi",unknown
+-15.3875,28.3228,"Lusaka, Zambia",unknown
+-17.8252,31.0335,"Harare, Zimbabwe",unknown
+-24.6282,25.9231,"Gaborone, Botswana",unknown
+-22.5597,17.0832,"Windhoek, Namibia",unknown
+-25.7479,28.2293,"Pretoria, South Africa",unknown
+-26.2041,28.0473,"Johannesburg, South Africa",unknown
+-33.9249,18.4241,"Cape Town, South Africa",unknown
+-29.8587,31.0218,"Durban, South Africa",unknown
+-18.8792,47.5079,"Antananarivo, Madagascar",unknown
+-20.1609,57.5012,"Port Louis, Mauritius",unknown
+-4.6167,55.4500,"Victoria, Seychelles",unknown
+40.7128,-74.0060,"New York City, USA",unknown
+34.0522,-118.2437,"Los Angeles, USA",unknown
+41.8781,-87.6298,"Chicago, USA",unknown
+29.7604,-95.3698,"Houston, USA",unknown
+33.7490,-84.3880,"Atlanta, USA",unknown
+42.3601,-71.0589,"Boston, USA",unknown
+37.7749,-122.4194,"San Francisco, USA",unknown
+47.6062,-122.3321,"Seattle, USA",unknown
+39.9526,-75.1652,"Philadelphia, USA",unknown
+38.9072,-77.0369,"Washington D.C., USA",unknown
+36.1699,-115.1398,"Las Vegas, USA",unknown
+25.7617,-80.1918,"Miami, USA",unknown
+32.7157,-117.1611,"San Diego, USA",unknown
+45.5051,-122.6750,"Portland, USA",unknown
+39.7392,-104.9903,"Denver, USA",unknown
+35.6895,-105.9378,"Santa Fe, USA",unknown
+43.6532,-79.3832,"Toronto, Canada",unknown
+45.5017,-73.5673,"Montreal, Canada",unknown
+49.2827,-123.1207,"Vancouver, Canada",unknown
+51.0447,-114.0719,"Calgary, Canada",unknown
+53.5461,-113.4938,"Edmonton, Canada",unknown
+45.4215,-75.6972,"Ottawa, Canada",unknown
+19.4326,-99.1332,"Mexico City, Mexico",unknown
+20.6597,-103.3496,"Guadalajara, Mexico",unknown
+25.6866,-100.3161,"Monterrey, Mexico",unknown
+17.5029,-88.1976,"Belize City, Belize",unknown
+14.6349,-90.5069,"Guatemala City, Guatemala",unknown
+13.6929,-89.2182,"San Salvador, El Salvador",unknown
+14.0723,-87.1921,"Tegucigalpa, Honduras",unknown
+12.1328,-86.2504,"Managua, Nicaragua",unknown
+9.9281,-84.0907,"San José, Costa Rica",unknown
+8.9824,-79.5199,"Panama City, Panama",unknown
+18.4655,-69.9510,"Santo Domingo, Dominican Republic",unknown
+18.0179,-76.8099,"Kingston, Jamaica",unknown
+10.6918,-61.2225,"Port of Spain, Trinidad and Tobago",unknown
+13.1939,-59.5432,"Bridgetown, Barbados",unknown
+18.4671,-66.1185,"San Juan, Puerto Rico",unknown
+23.1136,-82.3666,"Havana, Cuba",unknown
+25.0343,-77.3963,"Nassau, Bahamas",unknown
+4.7110,-74.0721,"Bogotá, Colombia",unknown
+10.9639,-74.7964,"Barranquilla, Colombia",unknown
+3.4516,-76.5320,"Cali, Colombia",unknown
+6.2442,-75.5812,"Medellín, Colombia",unknown
+10.4683,-66.9726,"Caracas, Venezuela",unknown
+10.6687,-71.6126,"Maracaibo, Venezuela",unknown
+-0.1807,-78.4678,"Quito, Ecuador",unknown
+-2.1962,-79.8862,"Guayaquil, Ecuador",unknown
+-12.0464,-77.0428,"Lima, Peru",unknown
+-16.4090,-71.5375,"Arequipa, Peru",unknown
+-16.5000,-68.1500,"La Paz, Bolivia",unknown
+-17.8146,-63.1561,"Santa Cruz de la Sierra, Bolivia",unknown
+-33.4489,-70.6693,"Santiago, Chile",unknown
+-23.5505,-46.6333,"São Paulo, Brazil",unknown
+-22.9068,-43.1729,"Rio de Janeiro, Brazil",unknown
+-15.7801,-47.9292,"Brasília, Brazil",unknown
+-12.9714,-38.5014,"Salvador, Brazil",unknown
+-3.7319,-38.5267,"Fortaleza, Brazil",unknown
+-19.9167,-43.9345,"Belo Horizonte, Brazil",unknown
+-30.0346,-51.2177,"Porto Alegre, Brazil",unknown
+-25.4284,-49.2733,"Curitiba, Brazil",unknown
+-34.6037,-58.3816,"Buenos Aires, Argentina",unknown
+-32.9468,-60.6393,"Rosario, Argentina",unknown
+-31.4135,-64.1811,"Córdoba, Argentina",unknown
+-34.9011,-56.1645,"Montevideo, Uruguay",unknown
+-25.2867,-57.3333,"Asunción, Paraguay",unknown
+4.6097,-74.0817,"Bogotá, Colombia",unknown
+-0.2295,-78.5243,"Quito, Ecuador",unknown
+64.1355,-21.8954,"Reykjavik, Iceland",unknown
+61.2181,65.4359,"Khanty-Mansiysk, Russia",unknown
+56.8387,60.6055,"Yekaterinburg, Russia",unknown
+43.2220,76.8512,"Almaty, Kazakhstan",unknown
+41.2995,69.2401,"Tashkent, Uzbekistan",unknown
+42.8746,74.5698,"Bishkek, Kyrgyzstan",unknown
+38.5598,68.7870,"Dushanbe, Tajikistan",unknown
+37.9662,58.3268,"Ashgabat, Turkmenistan",unknown
+40.3776,49.8920,"Baku, Azerbaijan",unknown
+40.1872,44.5152,"Yerevan, Armenia",unknown
+41.7151,44.8271,"Tbilisi, Georgia",unknown
+46.4825,30.7233,"Odessa, Ukraine",unknown
+50.4501,30.5234,"Kyiv, Ukraine",unknown
+53.9006,27.5590,"Minsk, Belarus",unknown
+54.6872,25.2797,"Vilnius, Lithuania",unknown
+56.9496,24.1052,"Riga, Latvia",unknown
+59.4370,24.7536,"Tallinn, Estonia",unknown
+60.1699,24.9384,"Helsinki, Finland",unknown
+59.3293,18.0686,"Stockholm, Sweden",unknown
+55.6761,12.5683,"Copenhagen, Denmark",unknown
+52.2297,21.0122,"Warsaw, Poland",unknown
+50.0755,14.4378,"Prague, Czech Republic",unknown
+48.1486,17.1077,"Bratislava, Slovakia",unknown
+47.4979,19.0402,"Budapest, Hungary",unknown
+44.4268,26.1025,"Bucharest, Romania",unknown
+42.6977,23.3219,"Sofia, Bulgaria",unknown
+41.0082,28.9784,"Istanbul, Turkey",unknown
+37.9838,23.7275,"Athens, Greece",unknown
+35.1856,33.3823,"Nicosia, Cyprus",unknown
+35.9042,14.5189,"Valletta, Malta",unknown
+43.8563,18.4131,"Sarajevo, Bosnia and Herzegovina",unknown
+42.4304,19.2594,"Podgorica, Montenegro",unknown
+41.9981,21.4254,"Skopje, North Macedonia",unknown
+41.3275,19.8187,"Tirana, Albania",unknown
+46.0569,14.5058,"Ljubljana, Slovenia",unknown
+45.8150,15.9819,"Zagreb, Croatia",unknown
+44.7866,20.4489,"Belgrade, Serbia",unknown
+47.8095,13.0550,"Salzburg, Austria",unknown
+47.3769,8.5417,"Zurich, Switzerland",unknown
+43.7102,7.2620,"Monaco",unknown
+43.9424,4.8055,"Avignon, France",unknown
+41.3851,2.1734,"Barcelona, Spain",unknown
+38.7223,-9.1393,"Lisbon, Portugal",unknown
+53.3498,-6.2603,"Dublin, Ireland",unknown
+51.5074,-0.1278,"London, UK",unknown
+55.9533,-3.1883,"Edinburgh, UK",unknown
+54.5973,-5.9301,"Belfast, UK",unknown
+53.4808,-2.2426,"Manchester, UK",unknown
+52.4862,-1.8904,"Birmingham, UK",unknown
+63.4305,-19.0191,"Vestmannaeyjar, Iceland",unknown
+23.1291,113.2644,"Guangzhou, China",unknown
+30.5928,114.3055,"Wuhan, China",unknown
+32.0603,118.7969,"Nanjing, China",unknown
+28.6830,115.8579,"Nanchang, China",unknown
+36.0611,120.3826,"Qingdao, China",unknown
+34.2604,108.9435,"Xi'an, China",unknown
+30.2741,120.1551,"Hangzhou, China",unknown
+43.8256,87.6168,"Ürümqi, China",unknown
+29.5516,106.5074,"Chongqing, China",unknown
+45.7589,126.6435,"Harbin, China",unknown
+38.9140,121.6147,"Dalian, China",unknown
+23.3790,113.7633,"Dongguan, China",unknown
+22.5431,114.0579,"Shenzhen, China",unknown
+26.0745,119.2965,"Fuzhou, China",unknown
+24.8801,102.8329,"Kunming, China",unknown
+30.6667,104.0667,"Chengdu, China",unknown
+39.1422,117.1767,"Tianjin, China",unknown
+18.7965,98.9619,"Chiang Mai, Thailand",unknown
+13.7563,100.5018,"Bangkok, Thailand",unknown
+10.8231,106.6297,"Ho Chi Minh City, Vietnam",unknown
+21.0278,105.8342,"Hanoi, Vietnam",unknown
+16.0678,108.2208,"Da Nang, Vietnam",unknown
+11.5564,104.9282,"Phnom Penh, Cambodia",unknown
+17.9757,102.6331,"Vientiane, Laos",unknown
+16.8053,96.1561,"Yangon, Myanmar",unknown
+22.1987,113.5439,"Macau",unknown
+24.1469,120.6839,"Taichung, Taiwan",unknown
+22.9908,120.2133,"Tainan, Taiwan",unknown
+24.9936,121.3010,"Taoyuan, Taiwan",unknown
+3.1390,101.6869,"Kuala Lumpur, Malaysia",unknown
+5.4141,100.3288,"George Town, Malaysia",unknown
+1.4655,103.7578,"Johor Bahru, Malaysia",unknown
+-6.2088,106.8456,"Jakarta, Indonesia",unknown
+-7.2575,112.7521,"Surabaya, Indonesia",unknown
+-6.9175,107.6191,"Bandung, Indonesia",unknown
+-5.1477,119.4327,"Makassar, Indonesia",unknown
+-1.2708,116.8253,"Balikpapan, Indonesia",unknown
+14.5995,120.9842,"Manila, Philippines",unknown
+10.3157,123.8854,"Cebu City, Philippines",unknown
+7.0707,125.6087,"Davao City, Philippines",unknown
+13.4125,123.0773,"Legazpi City, Philippines",unknown
+4.8604,114.9489,"Bandar Seri Begawan, Brunei",unknown
+-33.8688,151.2093,"Sydney, Australia",unknown
+-37.8136,144.9631,"Melbourne, Australia",unknown
+-27.4698,153.0251,"Brisbane, Australia",unknown
+-31.9505,115.8605,"Perth, Australia",unknown
+-34.9285,138.6007,"Adelaide, Australia",unknown
+-41.2865,174.7762,"Wellington, New Zealand",unknown
+-36.8485,174.7633,"Auckland, New Zealand",unknown
+-43.5320,172.6306,"Christchurch, New Zealand",unknown
+17.7134,83.3072,"Visakhapatnam, India",unknown
+26.9124,75.7873,"Jaipur, India",unknown
+23.0225,72.5714,"Ahmedabad, India",unknown
+21.1458,79.0882,"Nagpur, India",unknown
+25.5941,85.1376,"Patna, India",unknown
+30.7333,76.7794,"Chandigarh, India",unknown
+11.0168,76.9558,"Coimbatore, India",unknown
+9.9252,78.1198,"Madurai, India",unknown
+8.5241,76.9366,"Thiruvananthapuram, India",unknown
+20.2961,85.8245,"Bhubaneswar, India",unknown
+22.3072,73.1812,"Vadodara, India",unknown
+21.7679,72.1524,"Surat, India",unknown
+16.5062,80.6480,"Vijayawada, India",unknown
+9.9252,78.1198,"Madurai, India",unknown
+31.6340,74.8723,"Amritsar, India",unknown
+26.8467,80.9462,"Lucknow, India",unknown
+22.7196,75.8577,"Indore, India",unknown
+6.9271,79.8612,"Colombo, Sri Lanka",unknown
+6.0535,80.2210,"Galle, Sri Lanka",unknown
+7.2906,80.6337,"Kandy, Sri Lanka",unknown
+8.5874,81.2152,"Trincomalee, Sri Lanka",unknown
+9.6615,80.0255,"Jaffna, Sri Lanka",unknown
+7.4839,81.8711,"Batticaloa, Sri Lanka",unknown
+6.9894,81.0574,"Badulla, Sri Lanka",unknown
+7.2947,80.6350,"Nuwara Eliya, Sri Lanka",unknown
+6.8196,79.8762,"Moratuwa, Sri Lanka",unknown
+6.9108,79.9731,"Sri Jayawardenepura Kotte, Sri Lanka",unknown
+7.1894,79.8659,"Negombo, Sri Lanka",unknown
+6.0367,80.2164,"Matara, Sri Lanka",unknown
+7.3078,81.6724,"Ampara, Sri Lanka",unknown
+8.3465,80.4117,"Anuradhapura, Sri Lanka",unknown
+7.4818,80.3609,"Kurunegala, Sri Lanka",unknown
+6.8218,80.0413,"Ratnapura, Sri Lanka",unknown
+7.7573,79.7900,"Puttalam, Sri Lanka",unknown
+7.2955,80.6356,"Matale, Sri Lanka",unknown
+6.9831,80.7718,"Bandarawela, Sri Lanka",unknown
+7.3042,81.6741,"Kalmunai, Sri Lanka",unknown
+27.7172,85.3240,"Kathmandu, Nepal",unknown
+23.8103,90.4125,"Dhaka, Bangladesh",unknown
+22.3569,91.7832,"Chittagong, Bangladesh",unknown
+33.7294,73.0931,"Islamabad, Pakistan",unknown
+24.8607,67.0011,"Karachi, Pakistan",unknown
+31.5204,74.3587,"Lahore, Pakistan",unknown
+30.1798,66.9750,"Quetta, Pakistan",unknown
+34.0151,71.5249,"Peshawar, Pakistan",unknown
+-1.2921,36.8219,"Nairobi, Kenya",unknown
+-6.8235,39.2695,"Dar es Salaam, Tanzania",unknown
+0.3476,32.5825,"Kampala, Uganda",unknown
+-1.9441,30.0619,"Kigali, Rwanda",unknown
+9.0765,7.3986,"Abuja, Nigeria",unknown
+6.4541,3.3947,"Lagos, Nigeria",unknown
+5.6037,-0.1870,"Accra, Ghana",unknown
+6.3350,2.4183,"Cotonou, Benin",unknown
+12.6392,-8.0029,"Bamako, Mali",unknown
+13.5127,2.1128,"Niamey, Niger",unknown
+8.9806,-79.5185,"Panama City, Panama",unknown
+4.6097,-74.0817,"Bogotá, Colombia",unknown
+3.4516,-76.5320,"Cali, Colombia",unknown
+6.2442,-75.5812,"Medellín, Colombia",unknown
+-0.1807,-78.4678,"Quito, Ecuador",unknown
+-2.1962,-79.8862,"Guayaquil, Ecuador",unknown
+-12.0464,-77.0428,"Lima, Peru",unknown
+-16.4090,-71.5375,"Arequipa, Peru",unknown
+-16.5000,-68.1500,"La Paz, Bolivia",unknown
+-17.8146,-63.1561,"Santa Cruz, Bolivia",unknown
+-19.0429,-65.2554,"Sucre, Bolivia",unknown
+-25.2867,-57.3333,"Asunción, Paraguay",unknown
+-34.9011,-56.1645,"Montevideo, Uruguay",unknown
+-38.0055,-57.5426,"Mar del Plata, Argentina",unknown
+-32.8908,-68.8272,"Mendoza, Argentina",unknown

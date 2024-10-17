@@ -1,0 +1,77 @@
+lat,lon,name,provider
+39.0438,-77.4874,"AWS US East (N. Virginia)",AWS
+40.7128,-74.0060,"AWS US East (Ohio)",AWS
+37.7749,-122.4194,"AWS US West (N. California)",AWS
+45.5234,-122.6762,"AWS US West (Oregon)",AWS
+45.5017,-73.5673,"AWS Canada (Central)",AWS
+-23.5505,-46.6333,"AWS South America (São Paulo)",AWS
+53.3498,-6.2603,"AWS Europe (Ireland)",AWS
+51.5074,-0.1278,"AWS Europe (London)",AWS
+50.1109,8.6821,"AWS Europe (Frankfurt)",AWS
+45.4642,9.1900,"AWS Europe (Milan)",AWS
+48.8566,2.3522,"AWS Europe (Paris)",AWS
+59.3293,18.0686,"AWS Europe (Stockholm)",AWS
+25.2048,55.2708,"AWS Middle East (Bahrain)",AWS
+19.0760,72.8777,"AWS Asia Pacific (Mumbai)",AWS
+35.6762,139.6503,"AWS Asia Pacific (Tokyo)",AWS
+37.5665,126.9780,"AWS Asia Pacific (Seoul)",AWS
+1.3521,103.8198,"AWS Asia Pacific (Singapore)",AWS
+-33.8688,151.2093,"AWS Asia Pacific (Sydney)",AWS
+22.3193,114.1694,"AWS Asia Pacific (Hong Kong)",AWS
+-40.9006,174.8860,"AWS Asia Pacific (Jakarta)",AWS
+-33.9249,18.4241,"AWS Africa (Cape Town)",AWS
+33.4484,-112.0740,"GCP us-west1 (Oregon)",GCP
+41.8781,-87.6298,"GCP us-central1 (Iowa)",GCP
+39.0438,-77.4874,"GCP us-east4 (N. Virginia)",GCP
+33.7490,-84.3880,"GCP us-east1 (S. Carolina)",GCP
+45.5017,-73.5673,"GCP northamerica-northeast1 (Montréal)",GCP
+-23.5505,-46.6333,"GCP southamerica-east1 (São Paulo)",GCP
+53.3498,-6.2603,"GCP europe-west1 (Belgium)",GCP
+51.5074,-0.1278,"GCP europe-west2 (London)",GCP
+50.1109,8.6821,"GCP europe-west3 (Frankfurt)",GCP
+55.6761,12.5683,"GCP europe-north1 (Finland)",GCP
+48.8566,2.3522,"GCP europe-west9 (Paris)",GCP
+47.3769,8.5417,"GCP europe-west6 (Zürich)",GCP
+35.6762,139.6503,"GCP asia-northeast1 (Tokyo)",GCP
+37.5665,126.9780,"GCP asia-northeast3 (Seoul)",GCP
+1.3521,103.8198,"GCP asia-southeast1 (Singapore)",GCP
+-33.8688,151.2093,"GCP australia-southeast1 (Sydney)",GCP
+19.0760,72.8777,"GCP asia-south1 (Mumbai)",GCP
+22.3193,114.1694,"GCP asia-east2 (Hong Kong)",GCP
+24.9056,67.0822,"GCP asia-south2 (Delhi)",GCP
+31.2304,121.4737,"GCP asia-east1 (Taiwan)",GCP
+37.3541,-121.9552,"Azure West US",Azure
+47.6062,-122.3321,"Azure West US 2",Azure
+33.4484,-112.0740,"Azure West US 3",Azure
+39.7392,-104.9903,"Azure Central US",Azure
+41.8781,-87.6298,"Azure North Central US",Azure
+32.7767,-96.7970,"Azure South Central US",Azure
+40.7128,-74.0060,"Azure East US",Azure
+39.0438,-77.4874,"Azure East US 2",Azure
+43.6532,-79.3832,"Azure Canada Central",Azure
+45.5017,-73.5673,"Azure Canada East",Azure
+-23.5505,-46.6333,"Azure Brazil South",Azure
+53.3498,-6.2603,"Azure North Europe (Ireland)",Azure
+52.3667,4.8945,"Azure West Europe (Netherlands)",Azure
+51.5074,-0.1278,"Azure UK South",Azure
+53.4808,-2.2426,"Azure UK West",Azure
+50.1109,8.6821,"Azure Germany West Central",Azure
+48.8566,2.3522,"Azure France Central",Azure
+43.6047,1.4442,"Azure France South",Azure
+47.3769,8.5417,"Azure Switzerland North",Azure
+46.2044,6.1432,"Azure Switzerland West",Azure
+59.3293,18.0686,"Azure Sweden Central",Azure
+35.6762,139.6503,"Azure Japan East",Azure
+34.6937,135.5023,"Azure Japan West",Azure
+37.5665,126.9780,"Azure Korea Central",Azure
+35.1796,129.0756,"Azure Korea South",Azure
+22.3193,114.1694,"Azure East Asia (Hong Kong)",Azure
+1.3521,103.8198,"Azure Southeast Asia (Singapore)",Azure
+-33.8688,151.2093,"Azure Australia East",Azure
+-37.8136,144.9631,"Azure Australia Southeast",Azure
+19.0760,72.8777,"Azure Central India",Azure
+18.5204,73.8567,"Azure West India",Azure
+13.0827,80.2707,"Azure South India",Azure
+25.2048,55.2708,"Azure UAE North",Azure
+24.4539,54.3773,"Azure UAE Central",Azure
+-33.9249,18.4241,"Azure South Africa North",Azure
